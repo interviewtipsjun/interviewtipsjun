@@ -27,7 +27,6 @@
 <body>
 <x-dc>
 <helmet>
-<link rel="stylesheet" href="_ds/design-system-933799c8-437f-4a21-b99e-6b357b1109a5/styles.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&amp;family=Nanum+Pen+Script&amp;family=Nanum+Brush+Script&amp;family=East+Sea+Dokdo&amp;display=swap">
 <template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#176B5B"></rect><g stroke="#FBFAF7" stroke-width="34" fill="none"><rect x="120" y="150" width="272" height="232"></rect><path d="M120 222h272"></path></g></svg></template>
@@ -89,7 +88,7 @@
           <span style="font-size: 13px; line-height: 1.7; color: #6C7680; word-break: keep-all;">예약할 때 추가 선택에서 <strong style="color: #0F4A3F; font-weight: 700;">‘태안맡김’</strong>을 함께 체크해 주세요.</span>
         </div>
       </div>
-      <div style="position: relative; overflow: hidden; min-height: clamp(240px, 52vw, 520px); background-image: url('uploads/ChatGPT Image 2026년 8월 14일 오전 11_16_16.png'); background-color: #F4F2EC; background-size: cover; background-position: 62% center;">
+      <div style="position: relative; overflow: hidden; min-height: clamp(240px, 52vw, 520px); background-image: url('img/hero.jpg'); background-color: #F4F2EC; background-size: cover; background-position: 62% center;">
         <sc-if value="{{ wide }}" hint-placeholder-val="{{ false }}">
           <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(90deg, #F4F2EC 0%, rgba(244,242,236,0.92) 8%, rgba(244,242,236,0.55) 20%, rgba(244,242,236,0) 38%);"></div>
         </sc-if>
@@ -112,7 +111,7 @@
 
   <section id="story" style="position: relative; overflow: hidden; background: #0C1418;">
     <div aria-hidden="true" style="position: absolute; inset: 0;">
-      <img src="assets/story-bg.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <img src="img/story.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block;">
     </div>
     <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(12,20,24,0.82) 0%, rgba(12,20,24,0.62) 45%, rgba(12,20,24,0.86) 100%); pointer-events: none;"></div>
     <div style="position: relative; max-width: 1180px; margin: 0 auto; padding: clamp(72px, 12vw, 160px) clamp(20px, 3vw, 40px); display: grid; gap: 28px; justify-items: start; pointer-events: none;">
@@ -126,7 +125,7 @@
       <div style="display: flex; align-items: center; gap: clamp(6px, 2vw, 12px); padding-top: 8px; flex-wrap: nowrap; min-width: 0;">
         <span style="display: block; width: clamp(12px, 3vw, 22px); height: 1px; flex: none; background: #7FB8A7;"></span>
         <span style="font-size: clamp(11px, 3vw, 13px); letter-spacing: -0.04em; white-space: nowrap; color: rgba(255,255,255,0.6);">대표 이요한</span>
-        <img src="uploads/ChatGPT Image 2026년 8월 18일 오전 11_01_12.png" alt="이요한 서명" style="display: block; height: clamp(26px, 7vw, 34px); width: auto; flex: none; margin-left: 2px; opacity: 0.95;">
+        <img src="img/sign.png" alt="이요한 서명" style="display: block; height: clamp(26px, 7vw, 34px); width: auto; flex: none; margin-left: 2px; opacity: 0.95;">
       </div>
     </div>
   </section>
@@ -232,7 +231,7 @@
             <h3 style="margin: 0; font-size: clamp(17px, 4.4vw, 22px); font-weight: 800; letter-spacing: -0.04em; color: #10161C; word-break: keep-all;">미래의 나에게</h3>
             <p style="margin: 0; font-size: 14px; line-height: 1.85; color: #3D4750; word-break: keep-all;">지금의 다짐을 적어두고, 1년 뒤 그대로 지켰는지 확인하고 싶은 여행.</p>
           </span>
-          <img src="uploads/KakaoTalk_20260814_105343261.png" alt="바다를 보며 혼자 편지를 쓰는 여성" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 40% 40%;">
+          <img src="img/c1.jpg" alt="바다를 보며 혼자 편지를 쓰는 여성" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 40% 40%;">
         </article>
 
         <article style="display: grid; grid-template-columns: {{ cardCols }}; gap: clamp(14px, 2.4vw, 22px); align-items: center; padding: {{ cardPad }}; overflow: hidden; background: #FFFFFF; border: 1px solid rgba(16,22,28,0.08); border-radius: 18px; box-shadow: 0 2px 14px rgba(16,22,28,0.04);">
@@ -242,7 +241,7 @@
             <h3 style="margin: 0; font-size: clamp(17px, 4.4vw, 22px); font-weight: 800; letter-spacing: -0.04em; color: #10161C; word-break: keep-all;">함께 온 사람에게</h3>
             <p style="margin: 0; font-size: 14px; line-height: 1.85; color: #3D4750; word-break: keep-all;">연인, 부부, 가족, 친구끼리 서로 몰래 편지를 남겨두고 싶은 여행.</p>
           </span>
-          <img src="uploads/KakaoTalk_20260814_105344850.png" alt="객실 테이블에서 네 사람이 함께 편지를 쓰는 모습" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 50% 40%;">
+          <img src="img/c2.jpg" alt="객실 테이블에서 네 사람이 함께 편지를 쓰는 모습" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 50% 40%;">
         </article>
 
         <article style="display: grid; grid-template-columns: {{ cardCols }}; gap: clamp(14px, 2.4vw, 22px); align-items: center; padding: {{ cardPad }}; overflow: hidden; background: #FFFFFF; border: 1px solid rgba(16,22,28,0.08); border-radius: 18px; box-shadow: 0 2px 14px rgba(16,22,28,0.04);">
@@ -252,7 +251,7 @@
             <h3 style="margin: 0; font-size: clamp(17px, 4.4vw, 22px); font-weight: 800; letter-spacing: -0.04em; color: #10161C; word-break: keep-all;">특별한 날을 위해</h3>
             <p style="margin: 0; font-size: 14px; line-height: 1.85; color: #3D4750; word-break: keep-all;">기념일, 졸업, 결혼, 출산처럼 인생의 매듭이 되는 날을 남기고 싶은 여행.</p>
           </span>
-          <img src="uploads/KakaoTalk_20260814_105346564.png" alt="가족이 노을을 배경으로 맡김상자를 열어보는 모습" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 70% 40%;">
+          <img src="img/c3.jpg" alt="가족이 노을을 배경으로 맡김상자를 열어보는 모습" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 70% 40%;">
         </article>
 
         <article style="display: grid; grid-template-columns: {{ cardCols }}; gap: clamp(14px, 2.4vw, 22px); align-items: center; padding: {{ cardPad }}; overflow: hidden; background: #FFFFFF; border: 1px solid rgba(16,22,28,0.08); border-radius: 18px; box-shadow: 0 2px 14px rgba(16,22,28,0.04);">
@@ -262,7 +261,7 @@
             <h3 style="margin: 0; font-size: clamp(17px, 4.4vw, 22px); font-weight: 800; letter-spacing: -0.04em; color: #10161C; word-break: keep-all;">태안에 다시 올 이유로</h3>
             <p style="margin: 0; font-size: 14px; line-height: 1.85; color: #3D4750; word-break: keep-all;">언젠가 또 오자는 말 대신, 날짜가 있는 약속을 만들고 싶은 여행.</p>
           </span>
-          <img src="uploads/KakaoTalk_20260814_105348356.png" alt="바닷가에서 친구들이 맡겼던 상자를 함께 열어보는 모습" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 46% 40%;">
+          <img src="img/c4.jpg" alt="바닷가에서 친구들이 맡겼던 상자를 함께 열어보는 모습" style="display: block; width: {{ imgW }}; height: {{ imgH }}; aspect-ratio: {{ imgAr }}; align-self: stretch; object-fit: cover; object-position: 46% 40%;">
         </article>
       </div>
     </div>
@@ -326,7 +325,7 @@
 
       <div style="margin-bottom: clamp(44px, 7vw, 80px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(50%, 190px), 1fr)); gap: 0 clamp(0px, 1vw, 8px);">
         <div style="display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; align-content: start; min-width: 0; padding-bottom: 22px;">
-          <img src="uploads/KakaoTalk_20260814_104609055.png" alt="객실에서 편지를 봉투에 담아 맡김상자에 넣는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 38% 45%;">
+          <img src="img/t1.jpg" alt="객실에서 편지를 봉투에 담아 맡김상자에 넣는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 38% 45%;">
           <div style="display: flex; align-items: center; height: 34px;">
             <span style="flex: none; width: 12px; height: 12px; border-radius: 50%; background: #7FB8A7; box-shadow: 0 0 0 5px rgba(46,136,115,0.22);"></span>
             <span style="flex: 1; height: 1px; background: rgba(127,184,167,0.5);"></span>
@@ -336,7 +335,7 @@
         </div>
 
         <div style="display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; align-content: start; min-width: 0; padding-bottom: 22px;">
-          <img src="uploads/ChatGPT Image 2026년 8월 14일 오후 03_28_15.png" alt="사무실 책상에서 일하는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 50% 40%; opacity: 0.8;">
+          <img src="img/t2.jpg" alt="사무실 책상에서 일하는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 50% 40%; opacity: 0.8;">
           <div style="display: flex; align-items: center; height: 34px;">
             <span style="flex: none; width: 8px; height: 8px; margin-left: 2px; border-radius: 50%; background: rgba(255,255,255,0.45);"></span>
             <span style="flex: 1; height: 1px; background: rgba(255,255,255,0.18);"></span>
@@ -346,7 +345,7 @@
         </div>
 
         <div style="display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; align-content: start; min-width: 0; padding-bottom: 22px;">
-          <img src="uploads/KakaoTalk_20260814_104614588.png" alt="출근길 거리에서 휴대폰을 보는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 46% 32%; opacity: 0.8;">
+          <img src="img/t3.jpg" alt="출근길 거리에서 휴대폰을 보는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 46% 32%; opacity: 0.8;">
           <div style="display: flex; align-items: center; height: 34px;">
             <span style="flex: none; width: 8px; height: 8px; margin-left: 2px; border-radius: 50%; background: rgba(255,255,255,0.45);"></span>
             <span style="flex: 1; height: 1px; background: rgba(255,255,255,0.18);"></span>
@@ -356,7 +355,7 @@
         </div>
 
         <div style="display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; align-content: start; min-width: 0; padding-bottom: 22px;">
-          <img src="uploads/ChatGPT Image 2026년 8월 19일 오전 09_49_35.png" alt="비 오는 밤 버스 창밖을 바라보는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 45% 45%; opacity: 1;">
+          <img src="img/t4.jpg" alt="비 오는 밤 버스 창밖을 바라보는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 45% 45%; opacity: 1;">
           <div style="display: flex; align-items: center; height: 34px;">
             <span style="flex: none; width: 8px; height: 8px; margin-left: 2px; border-radius: 50%; background: rgba(255,255,255,0.45);"></span>
             <span style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(255,255,255,0.18) 0%, rgba(251,250,247,0.7) 100%);"></span>
@@ -366,7 +365,7 @@
         </div>
 
         <div style="display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; align-content: start; min-width: 0; padding-bottom: 22px;">
-          <img src="uploads/KakaoTalk_20260814_104640767.png" alt="노을 바닷가에서 맡겼던 편지를 다시 읽는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 58% 40%;">
+          <img src="img/t5.jpg" alt="노을 바닷가에서 맡겼던 편지를 다시 읽는 모습" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; object-position: 58% 40%;">
           <div style="display: flex; align-items: center; height: 34px;">
             <span style="flex: none; width: 14px; height: 14px; border-radius: 50%; background: #FBFAF7; box-shadow: 0 0 0 5px rgba(251,250,247,0.18);"></span>
             <span style="flex: 1; height: 1px; background: transparent;"></span>
@@ -398,7 +397,7 @@
 
   <section id="box" style="border-bottom: 1px solid rgba(16,22,28,0.08); background: #F4F2EC;">
     <div style="position: relative; overflow: hidden;">
-      <div role="img" aria-label="객실에 놓인 태안맡김상자와 편지, 기록카드 구성품" style="position: absolute; inset: 0; background-image: url('uploads/ChatGPT Image 2026년 8월 14일 오전 11_16_16.png'); background-size: cover; background-position: 52% center; filter: blur(3px) saturate(0.82); transform: scale(1.06);"></div>
+      <div role="img" aria-label="객실에 놓인 태안맡김상자와 편지, 기록카드 구성품" style="position: absolute; inset: 0; background-image: url('img/hero.jpg'); background-size: cover; background-position: 52% center; filter: blur(3px) saturate(0.82); transform: scale(1.06);"></div>
       <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(244,242,236,0.9) 0%, rgba(244,242,236,0.62) 42%, rgba(244,242,236,0.5) 72%, rgba(244,242,236,0.88) 100%);"></div>
       <div style="position: relative; max-width: 1180px; margin: 0 auto; padding: clamp(72px, 11vw, 150px) clamp(20px, 3vw, 40px) clamp(80px, 12vw, 170px);">
         <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.28em; color: #7A7364;">THE BOX</span>
@@ -417,7 +416,7 @@
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: clamp(14px, 2vw, 22px); margin-bottom: clamp(48px, 7vw, 72px);">
         <article style="display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; min-width: 0; background: #FFFFFF; border: 1px solid rgba(16,22,28,0.08); border-radius: 16px; overflow: hidden; box-shadow: 0 2px 14px rgba(16,22,28,0.04);">
-          <img src="uploads/ChatGPT Image 2026년 8월 14일 오전 11_49_19 (1)-291d192c.png" alt="태안맡김 편지지 두 장" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
+          <img src="img/b1.jpg" alt="태안맡김 편지지 두 장" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
           <div style="display: grid; gap: 9px; padding: clamp(20px, 3vw, 26px);">
             <span aria-hidden="true" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #E9F1ED;">
               <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#0F4A3F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h13a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M8 9h8M8 13h8M8 17h5"></path></svg>
@@ -428,7 +427,7 @@
         </article>
 
         <article style="display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; min-width: 0; background: #FFFFFF; border: 1px solid rgba(16,22,28,0.08); border-radius: 16px; overflow: hidden; box-shadow: 0 2px 14px rgba(16,22,28,0.04);">
-          <img src="uploads/ChatGPT Image 2026년 8월 14일 오전 11_49_19 (2)-3529a5c7.png" alt="날짜를 적는 태안맡김 기록카드" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
+          <img src="img/b2.jpg" alt="날짜를 적는 태안맡김 기록카드" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
           <div style="display: grid; gap: 9px; padding: clamp(20px, 3vw, 26px);">
             <span aria-hidden="true" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #E9F1ED;">
               <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#0F4A3F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path><path d="M8 15h5"></path></svg>
@@ -439,7 +438,7 @@
         </article>
 
         <article style="display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; min-width: 0; background: #FFFFFF; border: 1px solid rgba(16,22,28,0.08); border-radius: 16px; overflow: hidden; box-shadow: 0 2px 14px rgba(16,22,28,0.04);">
-          <img src="uploads/ChatGPT Image 2026년 8월 14일 오전 11_49_19 (3)-bf71b651.png" alt="태안맡김 밀봉 스티커 세 장" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
+          <img src="img/b3.jpg" alt="태안맡김 밀봉 스티커 세 장" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
           <div style="display: grid; gap: 9px; padding: clamp(20px, 3vw, 26px);">
             <span aria-hidden="true" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #E9F1ED;">
               <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#0F4A3F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>
@@ -450,7 +449,7 @@
         </article>
 
         <article style="display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; min-width: 0; background: #FFFFFF; border: 1px solid rgba(16,22,28,0.08); border-radius: 16px; overflow: hidden; box-shadow: 0 2px 14px rgba(16,22,28,0.04);">
-          <img src="uploads/ChatGPT Image 2026년 8월 14일 오전 11_50_44.png" alt="사진과 조약돌을 담은 태안맡김 밀봉비닐" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
+          <img src="img/b4.jpg" alt="사진과 조약돌을 담은 태안맡김 밀봉비닐" style="display: block; width: 100%; min-width: 0; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 50%;">
           <div style="display: grid; gap: 9px; padding: clamp(20px, 3vw, 26px);">
             <span aria-hidden="true" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #E9F1ED;">
               <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#0F4A3F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7h14l-1 13a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"></path><path d="M9 7V5a3 3 0 0 1 6 0v2"></path></svg>
@@ -567,7 +566,7 @@
   </section>
 
   <section style="position: relative; overflow: hidden; background: #0C1418;">
-    <div aria-hidden="true" style="position: absolute; inset: 0; background-image: url('uploads/ChatGPT Image 2026년 8월 14일 오전 11_16_16.png'); background-size: 100% auto; background-repeat: no-repeat; background-position: 52% center; opacity: 0.62;"></div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; background-image: url('img/hero.jpg'); background-size: 100% auto; background-repeat: no-repeat; background-position: 52% center; opacity: 0.62;"></div>
     <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(85deg, rgba(12,20,24,0.94) 0%, rgba(12,20,24,0.82) 40%, rgba(12,20,24,0.4) 72%, rgba(12,20,24,0.24) 100%);"></div>
     <div style="position: relative; max-width: 1180px; margin: 0 auto; padding: clamp(68px, 11vw, 150px) clamp(20px, 3vw, 40px); display: grid; gap: 22px; justify-items: start;">
       <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.3em; color: rgba(255,255,255,0.55);">TAEAN TIME ARCHIVE</span>
@@ -655,13 +654,13 @@ class Component extends DCLogic {
   static CASES = [
     ["01", "1년 뒤 같은 방에서 열어보기로 한 편지",
       "결혼을 앞둔 두 분이 각자 한 장씩 편지를 써서 한 상자에 넣고 가셨습니다. 다시 만나는 날은 1년 뒤, 같은 객실로 예약해 두고 가셨습니다.",
-      "1년 보관 · 편지 2장", "uploads/ChatGPT Image 2026년 8월 14일 오후 02_47_44.png"],
+      "1년 보관 · 편지 2장", "img/r1.jpg"],
     ["02", "퇴사한 날 밤에 적어둔 다짐",
       "혼자 오신 분이 기록카드 한 장을 채우는 데 오래 걸렸다고 하셨습니다. 6개월 뒤에 다시 오겠다고 하시며 상자를 봉하셨습니다.",
-      "6개월 보관 · 기록카드", "uploads/ChatGPT Image 2026년 8월 14일 오후 02_26_15.png"],
+      "6개월 보관 · 기록카드", "img/r2.jpg"],
     ["03", "아이가 여덟 살에 그린 바다",
       "가족 세 분이 각자 한 장씩 남기셨습니다. 아이가 그린 바다 그림이 함께 들어갔고, 다시 만나는 날은 아이 생일 무렵으로 적으셨습니다.",
-      "1년 보관 · 편지 3장, 그림", "uploads/ChatGPT Image 2026년 8월 14일 오후 02_26_08.png"],
+      "1년 보관 · 편지 3장, 그림", "img/r3.jpg"],
   ];
 
   state = {
